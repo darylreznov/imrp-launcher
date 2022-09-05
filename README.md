@@ -13,12 +13,15 @@ Anyone without any coding knowledge can easily bypass the new launcher by editin
 
 
 ## Installation
-
-Install my-project with npm
+Remove "scripts" section from package.json file and then run these commands.
 
 ```bash
   cd to the folder
   npm install
-  npm run start
+```
+
+After that add the "scripts" section back to package.json and do this:
+```bash
+ npm run start
 ```
     
